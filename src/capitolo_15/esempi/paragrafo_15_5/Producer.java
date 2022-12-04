@@ -6,7 +6,7 @@ public class Producer implements Runnable {
     new Thread(this, "Producer").start();
   }
   public void run() {
-    for (int i = 1; i <= 10; i++) {
+    for (int i = 1; i <= 1000; i++) {
       wareHouse.put(i);
     }
   }

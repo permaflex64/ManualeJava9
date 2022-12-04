@@ -1,0 +1,2 @@
+Eseguire in sequenza CreateDbMusic e poi JDBCApp, il primo crea Db, tabella Album ed inserisce valori il secondo li legge, ogni volta va' fatto girare CreateDbMusic dopo 
+aver eliminato la cartella Music del database per ricrearlo. Facendo creare il db da codice lo mette nella posizione giusta perche' venga letto senza configurare in Eclipse

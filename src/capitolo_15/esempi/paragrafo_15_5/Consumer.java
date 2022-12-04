@@ -6,7 +6,7 @@ public class Consumer implements Runnable {
     new Thread(this, "Consumer").start();
   }
   public void run() {
-    for (int i = 0; i < 10;) {
+    for (int i = 0; i < 1000;) {
       i = wareHouse.get();
     }
   }
